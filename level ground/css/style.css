@@ -1,0 +1,367 @@
+*{
+  box-sizing: border-box;
+}
+/* *****HEADER****** */
+header{
+  background-color: rgb(91, 107, 125);
+  width: 100%;
+  height: 95px;
+}
+.hamburger{
+  display: none;
+}
+.nav{
+  float: left;
+  width: 30%;
+}
+
+.navLi{
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+}
+.navAnchor{
+  color: white;
+  text-decoration: none;
+}
+.headerSec1{
+  float: left;
+  width: 40%;
+  padding-top: 10px;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.headerSec2{
+  float: left;
+  width: 30%;
+  padding-left: 160px;
+  padding-top: 10px;
+}
+
+.headerSelect{
+  float: left;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid white;
+  color: rgb(91, 107, 125);
+  height: 25px;
+  text-align: right;;
+
+}
+/* ******BODY****** */
+.mainSec1{
+  background-color: rgb(91, 107, 125);
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.sec1H2{
+  color: white;
+  font-size: 2.9rem;
+  text-align: center;
+}
+.sec1Para{
+  color: white;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.sec1Anchor{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.mainSec2{
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.sec2H3{
+  font-size: 2rem;
+  height: 20px;
+  text-align: center;
+}
+.sec2Para{
+  text-align: center;
+  width: 100%;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.mainSec3{
+  float: left;
+  width: 100%;
+  background-color: rgb(214,218, 221);
+  padding: 80px;
+}
+.mainSec3Mini1{
+  float: left;
+  width: 50%;
+}
+.miniImg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.miniH4{
+  text-align: center;
+}
+.miniPara{
+  text-align: center;
+  width: 100%;
+}
+.buttonForm{
+  text-align: center;
+
+}
+.buttonInput{
+  background-color: transparent;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.miniAnchor{
+  color: black;
+  text-decoration: none;
+}
+.mainSec3Mini2{
+  float: left;
+  width: 50%;
+}
+
+
+.miniPara2{
+  text-align: center;
+  width: 100%;
+}
+.miniAnchor2{
+  color: black;
+  text-decoration: none;
+}
+.mainSec4{
+  width: 100%;
+  float: left;
+  padding-bottom: 40px;
+}
+.mainSec4H3{
+  text-align: center;
+  padding-top: 100px;
+}
+.mainSec4Para1{
+  text-align: center;
+  width: 100%;
+}
+.mainSec4Para2{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 320px;
+  margin-right: 320px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mainSec4Anchor{
+  color: black;
+  text-decoration: none;
+
+}
+/* ******FOOTER****** */
+footer{
+  background: rgb(22, 29, 27);
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footerSec1{
+  width: 50%;
+  float: left;
+}
+.footerUl{
+  display: inline;
+  float: left;
+  width: 100%;
+  padding-left: 0;
+}
+.footerLi{
+  list-style: none;
+  display: inline;
+}
+.footerSec1Ul2{
+  list-style: none;
+  padding-left: 0;
+
+}
+.footerAnchor{
+  color: white;
+  text-decoration: none;
+}
+footer span{
+  color: rgb(83,98,115);
+}
+
+.footerSec2{
+  float: left;
+  width: 50%
+}
+.footerSec2Para1{
+  color: white;
+  text-align: right;
+  margin-left: 240px;
+  margin-top: 30px;
+}
+.footerSec2Para2{
+  color: white;
+  text-align: right;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+.footerSec2Para3{
+  color: white;
+  text-align: right;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.footerSec3{
+  width: 100%;
+  float: left;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 13px;
+
+}
+small{
+  float: left;
+}
+.footerSec3Logo{
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+@media only screen and (max-width: 600px){
+
+  .hamburger{
+    float: left;
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .nav{
+    display: none;
+  }
+  .headerSec1{
+    padding-left: 195px;
+  }
+  .headerSec2{
+    padding-left: 130px;
+  }
+  .mainSec1{
+    padding: 13px;
+  }
+  .sec1H2{
+    font-size: 2.3rem;
+  }
+  .sec2H3{
+    margin-top: 45px;
+  }
+  .sec2Para{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .mainSec3Mini1{
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .mainSec3Mini2{
+    width:100%;
+  }
+  .pBorder1{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .pBorder2{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .miniPara, .miniPara2{
+    display: none;
+  }
+  .mainSec4H3{
+    padding-top: 35px;
+  }
+  .mainSec4Para1{
+    display: none;
+  }
+  .mainSec4Para2{
+    margin-right: 160px;
+    margin-left: 160px;
+  }
+  footer{
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px){
+  .nav{
+    font-size: .7rem;
+    padding-top: 7px;
+  }
+  .headerSec2{
+    padding-left: 85px;
+  }
+  .sec2Para{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .mainSec3Mini1{
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .mainSec3Mini2{
+    width:100%;
+  }
+  .miniPara, .miniPara2{
+    display: none;
+  }
+  .pBorder1{
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .pBorder2{
+    margin-right: 140px;
+    margin-left: 140px;
+  }
+  .mainSec4Para2{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  footer{
+    display: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px){
+  .sec2Para{
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+  .pBorder1{
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+  .pBorder2{
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+}
